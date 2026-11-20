@@ -1,0 +1,244 @@
+{
+  "niveis": [
+    {
+      "id": 1,
+      "nome": "Nível 1 — 12 palavras",
+      "linhas": 10,
+      "colunas": 13,
+      "palavras": [
+        {
+          "palavra": "REGISTRADORES",
+          "dica": "Pequenas e ultrarrápidas áreas de armazenamento internas ao processador para dados imediatos.",
+          "dificuldade": "Difícil",
+          "linha": 0,
+          "coluna": 0,
+          "direcao": "H"
+        },
+        {
+          "palavra": "ADDRESSBUS",
+          "dica": "Vias unidirecionais que transportam a localização exata de onde ler ou escrever dados.",
+          "dificuldade": "Difícil",
+          "linha": 0,
+          "coluna": 7,
+          "direcao": "V"
+        },
+        {
+          "palavra": "EEPROM",
+          "dica": "Memória não volátil que pode ser apagada eletricamente por bytes individualmente.",
+          "dificuldade": "Difícil",
+          "linha": 0,
+          "coluna": 11,
+          "direcao": "V"
+        },
+        {
+          "palavra": "UC",
+          "dica": "Componente que busca instruções na memória e coordena o trabalho dos demais blocos.",
+          "dificuldade": "Difícil",
+          "linha": 2,
+          "coluna": 4,
+          "direcao": "H"
+        },
+        {
+          "palavra": "ULA",
+          "dica": "Circuito interno que realiza cálculos matemáticos e comparações lógicas.",
+          "dificuldade": "Média",
+          "linha": 2,
+          "coluna": 4,
+          "direcao": "V"
+        },
+        {
+          "palavra": "CPU",
+          "dica": "Cérebro do computador responsável por executar instruções e gerenciar o sistema.",
+          "dificuldade": "Média",
+          "linha": 2,
+          "coluna": 10,
+          "direcao": "H"
+        },
+        {
+          "palavra": "RAM",
+          "dica": "Memória volátil de acesso rápido que guarda os aplicativos em execução agora.",
+          "dificuldade": "Média",
+          "linha": 3,
+          "coluna": 7,
+          "direcao": "H"
+        },
+        {
+          "palavra": "CACHE",
+          "dica": "Memória ultrarrápida situada próxima ao núcleo para mitigar a lentidão do acesso principal.",
+          "dificuldade": "Difícil",
+          "linha": 4,
+          "coluna": 3,
+          "direcao": "H"
+        },
+        {
+          "palavra": "ROM",
+          "dica": "Memória somente leitura que armazena a rotina inicial de boot do hardware.",
+          "dificuldade": "Média",
+          "linha": 5,
+          "coluna": 9,
+          "direcao": "H"
+        },
+        {
+          "palavra": "DATABUS",
+          "dica": "Vias bidirecionais que transportam efetivamente o conteúdo trafegado entre os componentes.",
+          "dificuldade": "Difícil",
+          "linha": 6,
+          "coluna": 1,
+          "direcao": "H"
+        },
+        {
+          "palavra": "DMA",
+          "dica": "Mecanismo que transfere dados entre periféricos e memória sem sobrecarregar o processador.",
+          "dificuldade": "Difícil",
+          "linha": 6,
+          "coluna": 1,
+          "direcao": "V"
+        },
+        {
+          "palavra": "FLASH",
+          "dica": "Tecnologia não volátil baseada em blocos, usada em pendrives e SSDs.",
+          "dificuldade": "Média",
+          "linha": 9,
+          "coluna": 4,
+          "direcao": "H"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Nível 2 — 16 palavras",
+      "linhas": 15,
+      "colunas": 21,
+      "palavras": [
+        {
+          "palavra": "DUALCORE",
+          "dica": "Arquitetura que integra dois núcleos de processamento independentes no mesmo encapsulamento.",
+          "dificuldade": "Média",
+          "linha": 0,
+          "coluna": 0,
+          "direcao": "H"
+        },
+        {
+          "palavra": "UC",
+          "dica": "Componente que busca instruções na memória e coordena o trabalho dos demais blocos.",
+          "dificuldade": "Difícil",
+          "linha": 0,
+          "coluna": 1,
+          "direcao": "V"
+        },
+        {
+          "palavra": "CPU",
+          "dica": "Cérebro do computador responsável por executar instruções e gerenciar o sistema.",
+          "dificuldade": "Média",
+          "linha": 0,
+          "coluna": 4,
+          "direcao": "V"
+        },
+        {
+          "palavra": "REGISTRADORES",
+          "dica": "Pequenas e ultrarrápidas áreas de armazenamento internas ao processador para dados imediatos.",
+          "dificuldade": "Difícil",
+          "linha": 0,
+          "coluna": 6,
+          "direcao": "V"
+        },
+        {
+          "palavra": "MEMORIADEMASSA",
+          "dica": "Dispositivo não volátil de grande capacidade para guardar arquivos permanentemente.",
+          "dificuldade": "Média",
+          "linha": 0,
+          "coluna": 11,
+          "direcao": "V"
+        },
+        {
+          "palavra": "EEPROM",
+          "dica": "Memória não volátil que pode ser apagada eletricamente por bytes individualmente.",
+          "dificuldade": "Difícil",
+          "linha": 0,
+          "coluna": 20,
+          "direcao": "V"
+        },
+        {
+          "palavra": "FLASH",
+          "dica": "Tecnologia não volátil baseada em blocos, usada em pendrives e SSDs.",
+          "dificuldade": "Média",
+          "linha": 1,
+          "coluna": 17,
+          "direcao": "V"
+        },
+        {
+          "palavra": "MICROCONTROLADOR",
+          "dica": "Sistema computacional completo integrado em um único chip, focado em automação e embarcados.",
+          "dificuldade": "Média",
+          "linha": 3,
+          "coluna": 5,
+          "direcao": "H"
+        },
+        {
+          "palavra": "RAM",
+          "dica": "Memória volátil de acesso rápido que guarda os aplicativos em execução agora.",
+          "dificuldade": "Média",
+          "linha": 3,
+          "coluna": 14,
+          "direcao": "V"
+        },
+        {
+          "palavra": "ULA",
+          "dica": "Circuito interno que realiza cálculos matemáticos e comparações lógicas.",
+          "dificuldade": "Média",
+          "linha": 7,
+          "coluna": 4,
+          "direcao": "H"
+        },
+        {
+          "palavra": "DATABUS",
+          "dica": "Vias bidirecionais que transportam efetivamente o conteúdo trafegado entre os componentes.",
+          "dificuldade": "Difícil",
+          "linha": 7,
+          "coluna": 11,
+          "direcao": "H"
+        },
+        {
+          "palavra": "DMA",
+          "dica": "Mecanismo que transfere dados entre periféricos e memória sem sobrecarregar o processador.",
+          "dificuldade": "Difícil",
+          "linha": 8,
+          "coluna": 6,
+          "direcao": "H"
+        },
+        {
+          "palavra": "ROM",
+          "dica": "Memória somente leitura que armazena a rotina inicial de boot do hardware.",
+          "dificuldade": "Média",
+          "linha": 9,
+          "coluna": 9,
+          "direcao": "H"
+        },
+        {
+          "palavra": "QUADCORE",
+          "dica": "Processador que abriga quatro núcleos de execução independentes para multitarefa avançada.",
+          "dificuldade": "Média",
+          "linha": 10,
+          "coluna": 0,
+          "direcao": "H"
+        },
+        {
+          "palavra": "CACHE",
+          "dica": "Memória ultrarrápida situada próxima ao núcleo para mitigar a lentidão do acesso principal.",
+          "dificuldade": "Difícil",
+          "linha": 10,
+          "coluna": 4,
+          "direcao": "V"
+        },
+        {
+          "palavra": "ADDRESSBUS",
+          "dica": "Vias unidirecionais que transportam a localização exata de onde ler ou escrever dados.",
+          "dificuldade": "Difícil",
+          "linha": 14,
+          "coluna": 0,
+          "direcao": "H"
+        }
+      ]
+    }
+  ]
+}
