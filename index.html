@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cruzadinha de Arquitetura Computacional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho do jogo -->
+  <header class="cabecalho">
+    <h1>Cruzadinha de Arquitetura Computacional</h1>
+    <p>Leia a pista, descubra a palavra e preencha o tabuleiro.</p>
+  </header>
+
+  <!-- Escolha do nível -->
+  <nav class="niveis" aria-label="Seleção de nível">
+    <button id="btn-nivel-1" class="botao-nivel ativo" type="button" disabled>
+      Nível 1 — 12 palavras
+    </button>
+    <button id="btn-nivel-2" class="botao-nivel" type="button" disabled>
+      Nível 2 — 16 palavras
+    </button>
+  </nav>
+
+  <!-- Mensagens de erro e de vitória -->
+  <div id="erro-carregamento" class="mensagem-erro escondido" role="alert"></div>
+  <div id="mensagem-vitoria" class="mensagem-vitoria escondido" role="status" aria-live="polite"></div>
+
+  <!-- Área principal: tabuleiro à esquerda e pistas à direita -->
+  <main class="area-jogo">
+
+    <section class="painel-tabuleiro" aria-label="Tabuleiro da cruzadinha">
+      <div id="tabuleiro" class="tabuleiro"></div>
+    </section>
+
+    <section class="painel-pistas" aria-label="Pistas e controles">
+
+      <div class="controles">
+        <p id="contador" class="contador">0 de 0 palavras corretas</p>
+        <div class="botoes">
+          <button id="btn-conferir" class="botao botao-primario" type="button" disabled>
+            Conferir
+          </button>
+          <button id="btn-reiniciar" class="botao botao-secundario" type="button" disabled>
+            Reiniciar
+          </button>
+        </div>
+      </div>
+
+      <div class="listas-pistas">
+        <div>
+          <h2>Horizontais</h2>
+          <ol id="lista-horizontais" class="lista-pistas"></ol>
+        </div>
+        <div>
+          <h2>Verticais</h2>
+          <ol id="lista-verticais" class="lista-pistas"></ol>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
